@@ -18,6 +18,7 @@ body {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: hidden;
   font-family: "Baloo 2", cursive;
   color: var(--ink);
   background:
@@ -121,7 +122,7 @@ body.modal-open {
 #placesList {
   display: grid;
   grid-template-columns: repeat(2, 200px);
-  gap: 50px 70px;
+  gap: 20px 70px;
   justify-content: center;
   justify-items: center;
   width: 100%;
@@ -427,4 +428,19 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.site-footer {
+  margin: 0;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1d2f4f;
+  background: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(29, 47, 79, 0.16);
+}
+
+.site-footer p {
+  margin: 0;
 }
